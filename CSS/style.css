@@ -1,0 +1,53 @@
+body { 
+    Font-family: 'Rubik Distressed', cursive;
+    margin: 0px;
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/whiskey-background.jpeg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/**Jumbotron**/
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron-header {
+    font-size: 2rem;
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.jumbotron small {
+    font-size: 70%;
+    color: white;
+}
+
+/**quotes**/
+
+.quotes-container {
+    background-color: red;
+}
+
+
+/**Features**/
+
+.features-container{
+    background-color: pink;
+}
