@@ -2,7 +2,53 @@ body {
     Font-family: 'Rubik Distressed', cursive;
     margin: 0px;
 }
+/*ALERT*/
 
+.site-wide-alert {
+    margin: 0;
+    padding: 5px 15px;
+    
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #ffe26d;
+    border-color: #ffe26d;
+} 
+
+/*Headers*/
+
+.page-header {
+    border-top: 0;
+    margin-top: 0;
+
+    border-bottom: 0;
+    margin-bottom: 0;
+
+    text-align: center;
+}
+/**Navbar Styling**/
+
+.navalert-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    z-index: 1;
+    position: absolute;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(85, 255, 0, 0.25);
+}
+
+.navbar-toggler {
+    border: 0;
+}
 .callout-container {
     height: 100vh;
 
@@ -19,6 +65,17 @@ body {
     position: relative;
 }
 
+
+/**Tools**/
+
+.opaque-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /**Jumbotron**/
 
 .jumbotron {
@@ -30,6 +87,12 @@ body {
     color: white;
 }
 
+.jumbotron hr {
+    width: 75px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0.2rem solid rgba(255, 166, 0, 0.656);
+}
 .jumbotron p {
     color: white;
 }
@@ -39,15 +102,47 @@ body {
     color: white;
 }
 
+
+
 /**quotes**/
 
 .quotes-container {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 
 /**Features**/
 
 .features-container{
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.5);
+}
+
+/**Buttons**/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    margin-top: 0.5rem;
+}
+
+.btn--red{
+    background-color: red;
+    border: 0px solid black;
+    color: white;
+}
+
+/**Button Psuedos**/
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: green;
+}
+
+/*Overrides*/
+
+.container-fluid {
+    padding: 0;
 }
